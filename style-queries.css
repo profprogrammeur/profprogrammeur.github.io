@@ -1,0 +1,90 @@
+@media all and (max-width: 500px) {
+            
+        
+        body {
+            margin: 5%;
+            width: 90%;              
+        }
+
+        body,html {
+            margin:0;
+            padding:0;
+            width: 100vw;
+            overflow:auto;
+        }   
+    
+        p .h4-{
+            padding:10px 20px 10px 20px;
+        }
+
+        .container {
+            flex-direction:column-reverse;               
+        }
+
+        .container-main, .container-main-bottom {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .date,  .place, .point {
+            margin: 2vw;
+        }
+
+        .fa-circle {
+            font-size:xx-small;
+        }
+
+        .fa-dot-circle {
+            font-size: x-small;
+        }
+
+        .h3-, .h4- {
+            text-align: center;
+        }
+
+        .h4- {
+            font-size: 0.7rem;
+        }
+
+        .h3- {
+            font-size:0.8rem;
+        }
+
+        .icons {
+            margin-top :10px;
+            margin-bottom: 20px;
+        }
+
+        .main-bottom {
+            margin : 5% auto 0 auto;
+        }
+
+        .name {
+            font-size:1.5rem;
+        }
+
+        .p-side, .p-main,p {
+            font-size: x-small;
+        } 
+        
+        .sidebar {
+            width:100%;
+        } 
+        
+        .titre {
+            font-size: 1rem;
+        }
+
+        .underline {
+            margin:0 10px 0 10px;
+            font-size: 0.9rem;
+        }
+
+        .year {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;           
+        }       
+
+    }
