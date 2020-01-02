@@ -38,11 +38,12 @@
         }
 
         .fa-circle {
-            font-size:xx-small;
+            /* font-size:xx-small; */
         }
 
         .fa-dot-circle {
-            font-size: x-small;
+            /* font-size: x-small; */
+            padding:2%;
         }
 
         .h3-, .h4- {
