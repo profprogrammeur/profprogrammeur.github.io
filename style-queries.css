@@ -1,49 +1,22 @@
 @media all and (max-width: 500px) {
             
-        
-        body {
-            /* margin: 5%; */
-            /* width: 90%;               */
-        }
-
-        body,html {
-            /* margin:0; */
-            /* padding:5%; */
-            /* width: 100vw; */
-            /* overflow:auto; */
-        }   
-    
-        p .h4-{
-            /* padding:10px 20px 10px 20px; */
-        }
-
         .container {
             flex-direction:column-reverse;   
-            /* width: 100%; */
-            /* justify-content: center;  */
             align-items: center;
-            /* margin: 5%; */
-            /* margin:10%;   */
         }
 
         .container-main, .container-main-bottom {
             display: flex;
             flex-direction: column;
             align-items: center;
-            /* width:100%; */
         }
 
         .date,  .place, .point {
             margin: 2vw;
         }
 
-        .fa-circle {
-            /* font-size:xx-small; */
-        }
-
         .fa-dot-circle {
-            /* font-size: x-small; */
-            padding:2%;
+            padding: 2%;
         }
 
         .h3-, .h4- {
@@ -55,7 +28,7 @@
         }
 
         .h3- {
-            font-size:0.8rem;
+            font-size: 0.8rem;
         }
 
         .icons {
@@ -63,8 +36,7 @@
         }
 
         .mainbar {
-            width:90%;
-            /* padding:10%; */
+            width: 90%;
         }
 
         .main-bottom {
@@ -72,7 +44,7 @@
         }
 
         .name {
-            font-size:1.5rem;
+            font-size: 1.5rem;
         }
 
         .p-side, .p-main,p {
@@ -83,12 +55,12 @@
             display: none;
         }
 
-         .photo-main {
-             display: flex;
+        .photo-main {
+            display: flex;
          }
         
         .sidebar {
-            width:100%;
+            width: 100%;
         } 
         
         .titre {
@@ -96,7 +68,7 @@
         }
 
         .underline {
-            margin:0 10px 0 10px;
+            margin: 0 5% 0 5%;
             font-size: 0.9rem;
         }
 
@@ -106,8 +78,5 @@
             align-items: center;           
         }  
         
-        /* .icons, .loisirs {
-            height:100%
-        } */
 
     }

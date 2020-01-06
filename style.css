@@ -3,38 +3,37 @@
             --main-font-color: #424244;
 
         }
+
         html,
         body {
-            width:100%;
+            width: 100%;
             margin: 0;
             font-family: 'Varela', sans-serif;
             color: var(--main-font-color);  
-            overflow:auto;
+            overflow: auto;
         }
 
         img {
             border-radius: 50%;
             border: 7px solid #aee571;
-            height:40%;
-            /* height:200px;
-            width:200px; */
+            height: 40%;
             }
        
         p {
-            margin:0;
+            margin: 0;
             font-size: small;
         }
 
-         .bold {
+        .bold {
             font-weight: 600;
         }
      
         .brand-name {
-            margin-bottom:5%;
+            margin-bottom: 5%;
         }
 
         .container {
-            width:100%;
+            width: 100%;
             display: flex;
             font-size: x-large;
         }
@@ -43,7 +42,7 @@
             display: grid;
             grid-template-columns: 1fr 2fr;
             grid-template-rows: auto; 
-            grid-column-gap: 10px;
+            grid-column-gap: 3%;
         }
 
         .container-main-bottom {
@@ -52,7 +51,6 @@
 
         .cv {
             font-size: 1.5rem;
-            padding:5 px;
             color:var(--main-bg-color);
         }
 
@@ -61,12 +59,11 @@
         }
 
         .fa-circle {
-            font-size:xx-small;
+            font-size: xx-small;
         }
 
         .fa-dot-circle {
-            font-size:large;
-            /* filter:invert(40%); */
+            font-size: large;
             background-color: var(--main-bg-color);
             color: white;
             border-radius: 50%;          
@@ -81,19 +78,19 @@
         
 
         .firstname {
-            color:var(--main-bg-color);
+            color: var(--main-bg-color);
         }
 
         .fun {
-                    font-size: 2rem;
-                    border-radius: 50%;
-                    padding:10px;
-                    margin:5%;
-                    border: 3px solid var(--main-font-color);
-                }
+            font-size: 2rem;
+            border-radius: 50%;
+            padding: 5%;
+            margin: 5%;
+            border: 3px solid var(--main-font-color);
+        }
 
         .h3- {
-            font-size:1.3rem;          
+            font-size: 1.3rem;          
         }
 
         .h4- {
@@ -105,15 +102,6 @@
             display: flex; 
             justify-content: space-around;
             align-items: center;
-            /* margin :0px; */
-        }
-
-      
-        .loisir {
-            /* display: flex;  */
-            /* align-items: center; */
-            /* margin:0;
-            padding:0; */
         }
 
         .mainbar {
@@ -121,11 +109,11 @@
             width: 67%;
             height: 100%;
             display: grid;
-            margin:5%;
+            margin: 5%;
         }
 
         .main-bottom {
-            margin-right : 15%;
+            margin-right: 15%;
         }
 
         .name {
@@ -133,7 +121,7 @@
         }
 
         .p-side  {
-            margin : 3% 8% 3% 8% ;
+            margin: 3% 8% 3% 8% ;
             font-size: small;
             text-align: justify;
         }
@@ -148,12 +136,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            /* height:100 px; */
-            /* padding:10%;             */
         }
 
         .photo-main {
-            display:none;
+            display: none;
         }
 
         .place {
@@ -170,12 +156,10 @@
             display: flex;
             flex-direction: column;
             justify-content: space-around;
-            /* display: grid;
-            grid-template-rows: 20% auto auto auto ; */
         }
 
         .spacer {
-            padding: 10px;
+            padding: 5%;
 
         }
 
@@ -190,13 +174,13 @@
         .titre {
             text-align: center;
             background-color: var(--main-font-color);
-            color:var(--main-bg-color);
+            color: var(--main-bg-color);
         }
 
         .underline {
             border-bottom: 2px solid var(--main-bg-color);
-            margin-bottom:5%;
-            margin-top:5%;
+            margin-bottom: 5%;
+            margin-top: 5%;
         }
 
         .year {
