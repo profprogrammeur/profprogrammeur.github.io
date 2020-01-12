@@ -1,5 +1,7 @@
         :root {
-            --main-bg-color: #7cb342;
+            --main-bg-color: #e20066;
+            /* --main-bg-color: #7cb342; */
+
             --main-font-color: #424244;
 
         }
@@ -15,7 +17,8 @@
 
         img {
             border-radius: 50%;
-            border: 7px solid #aee571;
+            border: 7px solid #e27c00;
+            /* #aee571 */
             height: 40%;
             }
        
@@ -66,7 +69,9 @@
             font-size: large;
             background-color: var(--main-bg-color);
             color: white;
-            border-radius: 50%;          
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
         }
 
         .fa-circle, .fa-dot-circle
@@ -76,7 +81,6 @@
             align-items: center; 
         }
         
-
         .firstname {
             color: var(--main-bg-color);
         }
